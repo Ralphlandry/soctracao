@@ -1,0 +1,6 @@
+// Produits : [id, nom, prix, prix promo, catégorie, teinte]
+export const P=[[1,"Beurre de cacao",2500,0,"cacao","c"],[2,"Chocolat au lait 40 % cacao",2000,1500,"choco","l"],[3,"Chocolat au lait 55 % au sésame",2850,0,"choco","l"],[4,"Chocolat au lait 55 % nature",2250,2000,"choco","l"],[5,"Nya Mboa lait & éclats d’arachides 55 %",2000,0,"choco","l"],[7,"Nya Mboa blanc 70 % pur beurre de cacao",2500,0,"choco","b"],[8,"Nya Mboa noir aux dattes 80 %",2300,2000,"choco","n"],[9,"Nya Mboa noir aux éclats de fèves 70 %",2000,1500,"choco","n"],[10,"Nya Mboa noir au gingembre 70 %",1500,0,"choco","n"],[11,"Nya Mboa noir au piment 70 %",1800,1500,"choco","n"],[12,"Nya Mboa noir nature 70 %",1500,0,"choco","n"],[14,"Poudre de cacao naturelle Goshen",1500,1300,"cacao","c"],[16,"Tartine Mboa 70 % pur chocolat",2500,0,"cacao","c"],[17,"Goshen Crousty Cao sucré",0,0,"cacao","c"],[18,"Goshen Crousty Cao nature — fèves de cacao",800,0,"cacao","c"]];
+export const T={n:["#2a140c","#5a2c16","#f4e9d8"],l:["#7a4a2a","#c08350","#fff"],b:["#efe2c4","#faf3e1","#5a2c16"],c:["#5a3018","#9a5a2f","#f4e9d8"],s:["#2f6b2f","#6aa860","#fff"]};
+export const f = n => n.toLocaleString('fr-FR').replace(/\u202f/g, ' ') + ' FCFA'
+export const CATS = [['all', 'Tout'], ['choco', 'Chocolats Nya Mboa'], ['cacao', 'Cacao & tartines']]
+export const POPULAR = [7, 11, 10, 3, 14, 1]
