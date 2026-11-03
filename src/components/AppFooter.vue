@@ -33,6 +33,6 @@ onBeforeUnmount(() => ctx && ctx.revert())
   <div class="fcol"><h4>Nous joindre</h4><p>BP 9163 Douala<br>Logpom, fin goudron Bassong</p><p>+237 692 07 27 81<br>+237 677 82 24 48<br>+237 690 37 72 80</p><a href="mailto:contact@soctracao.com">contact@soctracao.com</a></div>
  </div>
  <div class="fwm" aria-hidden="true">SOCTRACAO</div>
- <div class="wrap fbot"><span>© 2026 SOCTRACAO · RC/DLA/2015/B/704 · Douala, Cameroun</span><button id="totop" @click="toTop">Retour en haut ↑</button></div>
+ <div class="wrap fbot"><div class="fcopy"><span>© 2026 SOCTRACAO · RC/DLA/2015/B/704 · Douala, Cameroun</span><a class="fcredit" href="https://nenxel.com" target="_blank" rel="noopener noreferrer">by Nenxel</a></div><button id="totop" @click="toTop">Retour en haut ↑</button></div>
 </footer>
 </template>
